@@ -1,0 +1,173 @@
+{
+    "fashion": [
+        {
+            "category": "Fashion",
+            "title": "The Hidden Mystery Behind Fashion",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-tim-douglas-65.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-tim-douglas-65.jpg",
+            "author": "Gowtham",
+            "date": "Feb 4, 2022"
+        },
+        {
+            "category": "Fashion",
+            "title": "Everything I Learned About Beauty",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-antoni-shkraba-production-8041321.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-antoni-shkraba-production-8041321.jpg",
+            "author": "Gowtham",
+            "date": "Feb 4, 2022"
+        },
+        {
+            "category": "Fashion",
+            "title": "Truth About Beauty In 3 Little Words",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-anna-shvets-3852159-1.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-anna-shvets-3852159-1.jpg",
+            "author": "Gowtham",
+            "duration": "8 Min Read",
+            "date": "Feb 4, 2022"
+        },
+        {
+            "category": "Fashion",
+            "title": "How To Become Better With Magazine In 10 Minutes",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/freestocks-VFs2fZEVkXo-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/freestocks-VFs2fZEVkXo-unsplash-2048x1365.jpg",
+            "author": "Gowtham",
+            "duration": "8 Min Read",
+            "date": "Feb 4, 2022"
+        },
+        {
+            "category": "Fashion",
+            "title": "Facts Everyone Should Know About Design",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/sigmund-4UGmm3WRUoQ-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/sigmund-4UGmm3WRUoQ-unsplash-2048x1536.jpg",
+            "author": "Gowtham",
+            "duration": "8 Min Read",
+            "date": "Feb 4, 2022"
+        }
+    ],
+    "technology": [
+        {
+            "category": "Technology",
+            "title": "Prioritizing Your Trend To Get Your Business",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-christina-morillo-1181309-2-1-600x600.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-christina-morillo-1181309-2-1-1024x768.jpg",
+            "author": "Gowtham",
+            "date": "Feb 4, 2022"
+        },
+        {
+            "category": "Technology",
+            "title": "Which Camera Is Better: The Pixel 6 Vs S21 Ultra?",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/tech-daily-CXklL5ca71w-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/tech-daily-CXklL5ca71w-unsplash-1024x683.jpg",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Technology",
+            "title": "Intelligent Strategies For The Entrepreneurially Challenged",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/nordwood-themes-yyMJNPgQ-X8-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/nordwood-themes-yyMJNPgQ-X8-unsplash-1024x683.jpg",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Technology",
+            "title": "Intel Looks To Ohio For A Pair Of Chip Factories",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/slejven-djurakovic-0uXzoEzYZ4I-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/slejven-djurakovic-0uXzoEzYZ4I-unsplash-1024x683.jpg",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Technology",
+            "title": "Associated with online buying, which is an issue.",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/christian-wiediger-rymh7EZPqRs-unsplash.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/christian-wiediger-rymh7EZPqRs-unsplash-1024x683.jpg",
+            "author": "Gowtham",
+            "date": "Feb 8, 2022"
+        }
+    ],
+    "environment": [
+        {
+            "category": "Environment",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/jason-zhao-eeu3pOcU0h0-unsplash-min-1.jpg",
+            "title": "Elephants in a Sri Lankan dump are dying from eating plastic rubbish.",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/jason-zhao-eeu3pOcU0h0-unsplash-min-1-1024x512.jpg",
+            "author": "Gowtham",
+            "date": "Feb 8, 2022"
+        },
+        {
+            "category": "Environment",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-artem-podrez-5726788.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-artem-podrez-5726788-1024x576.jpg",
+            "title": "Rucor is supposedly going to stop creating... well, everything.",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Environment",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-simon-berger-666737.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-simon-berger-666737-1024x767.jpg",
+            "title": "This is the sixth warmest year on record for the planet.",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Environment",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/lukas-lehotsky-Xhle0cfnKrg-unsplash.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/lukas-lehotsky-Xhle0cfnKrg-unsplash-1024x684.jpg",
+            "title": "Many nation are pursuing nuclear power as a means of reducing emissions.",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Environment",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/jonathan-cooper-0B3BaWvDtrI-unsplash-1024x683.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/jonathan-cooper-0B3BaWvDtrI-unsplash-1024x683.jpg",
+            "title": "The Source Of Horizon Bottled Water Is The Subject Of A Fierce Feud.",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        }
+    ],
+    "lifestyle": [
+        {
+            "category": "Lifestyle",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/alexander-mils-5X8oLkzZ1fI-unsplash-2-1-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/alexander-mils-5X8oLkzZ1fI-unsplash-2-1.jpg",
+            "title": "Why Should You Be Eating Organic ?",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Lifestyle",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/steven-lewis-r4He4Btlsro-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/steven-lewis-r4He4Btlsro-unsplash-1024x687.jpg",
+            "title": "Solo Travel Around The World",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Lifestyle",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/raamin-ka-SDflevx9lqY-unsplash-1-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/raamin-ka-SDflevx9lqY-unsplash-1-1024x768.jpg",
+            "title": "How To Acquire A Job As A Costume Designer In Hollywood.",
+            "author": "Gowtham",
+            "date": "Feb 8, 2022"
+        },
+        {
+            "category": "Lifestyle",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-leah-kelley-3935702-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/pexels-leah-kelley-3935702-1024x682.jpg",
+            "title": "Best Way To Have Fun During Roadtrip",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        },
+        {
+            "category": "Lifestyle",
+            "image": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/spacejoy-85pCvDWDMmI-unsplash-150x150.jpg",
+            "imageBig": "https://rishidemos.com/magazine/wp-content/uploads/sites/47/2022/02/spacejoy-85pCvDWDMmI-unsplash-1024x576.jpg",
+            "title": "Best Home Design Ideas For 2022.",
+            "author": "Gowtham",
+            "date": "Feb 7, 2022"
+        }
+    ]
+}

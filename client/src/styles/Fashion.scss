@@ -1,0 +1,138 @@
+.path-history-container {
+    height: 30vh;
+    background-color: #fad3da;
+    margin-top: 0.4rem;
+    padding: 0.5rem 8rem;
+    > h1 {
+        color: black;
+        font-family: sans-serif;
+        font-weight: 600;
+        padding-top: 8%;
+        font-size: 27px;
+    }
+}
+
+.fashion-main-container {
+    min-height: 320vh;
+    width: 100%;
+    display: flex;
+    gap: 7rem;
+    padding: 4rem 8rem;
+}
+
+.fashion-articel-displayer {
+    min-height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+// articelBigCard css
+
+.diff-category-articel-displayer {
+    width: 100%;
+    height: calc(100% / 5);
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    > img {
+        width: 45%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.big-details-container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+    > p {
+        font-size: 16px;
+        &:hover {
+            color: #f21d44;
+        }
+    }
+    > h1 {
+        font-size: 48px;
+        &:hover {
+            color: #f21d44;
+        }
+    }
+    > div {
+        display: flex;
+        gap: 12px;
+        > p {
+            font-size: 16px;
+            &:hover {
+                color: #f21d44;
+            }
+        }
+    }
+}
+
+.big-para {
+    font-size: 15px;
+}
+
+.read-more {
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+.serarchBar-recentPosts-categories-popularPosts-container {
+    width: 30%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.searchBar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    > input {
+        width: 90%;
+        height: 3rem;
+        padding-left: 11px;
+    }
+    > svg {
+        background-color: grey;
+        color: white;
+        font-size: 14px;
+        padding: 8px;
+        height: 3rem;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .path-history-container {
+        padding: 0.5rem 1rem;
+    }
+    .fashion-main-container {
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fashion-articel-displayer {
+        width: 100%;
+    }
+    .diff-category-articel-displayer {
+        display: flex;
+        flex-direction: column;
+        > img {
+            width: 100%;
+        }
+    }
+    .big-details-container {
+        width: 100%;
+    }
+    .serarchBar-recentPosts-categories-popularPosts-container {
+        width: 100%;
+    }
+}

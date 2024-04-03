@@ -1,0 +1,120 @@
+.scroll-top-button-sideBar {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+.location-style {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    border: 1px solid #f21d44;
+    border-radius: 50%;
+    color: #f21d44;
+    padding: 7px;
+    font-size: 44px;
+    cursor: pointer;
+    &:hover {
+        color: #fff;
+        background-color: #f21d44;
+    }
+}
+
+.side-bar-container {
+    position: fixed;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: -5%;
+    animation: side-bar-animation 0.5s ease;
+    animation-fill-mode: forwards;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) -1px 3px 6px;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    > ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        > li {
+            font-size: 22px;
+        }
+    }
+}
+
+@keyframes side-bar-animation {
+    to {
+        right: 0;
+    }
+}
+
+.hover-demo::before {
+    content: '';
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 5px 8px;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 99999;
+    right: 119%;
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+    background-color: black;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.hover-demo:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.app-store::before {
+    content: 'Browse Demos';
+}
+
+.free-download::before {
+    content: 'Free Download';
+}
+
+.buy-pro::before {
+    content: 'Buy Pro';
+}
+
+.import-demo::before {
+    content: 'Import Demo';
+}
+
+.hover-demo::after {
+    content: '';
+    position: absolute;
+    visibility: hidden;
+    z-index: 9999;
+    right: 95%;
+    margin-top: 22%;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 8px solid black;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hover-demo:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .side-bar-container {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
