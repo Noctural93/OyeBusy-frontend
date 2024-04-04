@@ -8,7 +8,7 @@ const Footer = () => {
     const [activeTab, setActiveTab] = useState('');
 
   return (
-    <Footer className='footer-container'>
+    <footer className='footer-container'>
       <div className='logo-contianer'>
         <Link reloadDocument to='/oye-busy'>
             <img src={logo} alt='logo'/>
@@ -54,7 +54,7 @@ const Footer = () => {
       </ul>
       <div className='line-2'></div>
       <p>Copyright{'  '}<LiaCopyrightSolid/>{'  '}2024 oyeBusy</p>
-    </Footer>
+    </footer>
   )
 }
 

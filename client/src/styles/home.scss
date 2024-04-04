@@ -1,6 +1,6 @@
 .home-container-desktop {
     height: 100%;
-    width: 100%;
+    width:calc(100vw - 0.2vw);
     display: flex;
     flex-direction: column;
     padding: 4rem 8rem 0 8rem;
@@ -837,13 +837,13 @@
         }
     }
     .hot-topics-heading-line {
-        width: 70%;
+        width: 80%;
         > h1 {
             white-space: nowrap;
         }
     }
     .left-right-button {
-        left: 88%;
+        left: 80%;
     }
     .fashion-heading-line {
         display: none;
@@ -891,7 +891,7 @@
         }
     }
     .advertisement-card {
-        width: 98vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 25vh;
