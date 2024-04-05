@@ -794,6 +794,7 @@
         height: 310vh;
         display: flex;
         flex-direction: column;
+        margin-bottom: 1rem;
     }
     .dont-miss-articles-details {
         gap: 21px;
@@ -811,6 +812,9 @@
 }
 
 @media screen and (max-width: 590px) {
+    .home-container-desktop{
+        padding: 8rem 1rem 8rem 1rem;
+    }
     .top-most-content {
         height: 100vh;
         display: flex;
