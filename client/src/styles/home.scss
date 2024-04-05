@@ -1,9 +1,10 @@
 .home-container-desktop {
     height: 100%;
-    width:calc(100vw - 0.2vw);
+    width: 100vw;
     display: flex;
     flex-direction: column;
     padding: 4rem 8rem 0 8rem;
+    overflow-x: hidden;
 }
 
 .top-most-content {

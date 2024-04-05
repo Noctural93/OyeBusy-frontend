@@ -1,8 +1,10 @@
 .scroll-top-button-sideBar {
     position: absolute;
-    min-height: 100vh;
-    width: calc(100vw - 0.2vw);
+    top: 5vh;
+    height: 5vh;
+    width: 100vw;
     z-index: 999;
+    overflow-x: hidden;
 }
 
 .location-style {
