@@ -1,26 +1,34 @@
 import { useEffect, useState } from "react"
 import { LiaGreaterThanSolid } from "react-icons/lia";
+import {Link} from 'react-router-dom';
 
 const PathHistory = () => {
 
   const [path, setPath] = useState('');
 
-  useEffect(() => {
-    let newString = ''
-    const array = location.pathname.split('/')
-    const output = array.filter(val => val !== '');
-    const output1 = output.map(item => newString = ' > ' + item)
-    setPath(output1);
-    // console.log(output1)
-  }, []);
+  const array = location.pathname.split('/').filter(val => val !== '');
+
+  let newString = ''
 
   return (
     <div>
         <h1 style={{
           fontSize: "17px",
-          color: "rgba(35, 35, 35, 0.742)",
           fontWeight: "100",
-        }}>home{path}</h1>      
+        }}><Link to='/' style={{
+          textDecoration: 'none',
+          color: "rgba(35, 35, 35, 0.742)",
+        }}>home</Link>
+          {
+            array.map((item, index) => {
+              newString += `/${item}`
+              return <Link key={index} to={newString} style={{
+                textDecoration: 'none',
+                color: "rgba(35, 35, 35, 0.742)",
+              }}>{' > '}{' '}{item}</Link>
+            })
+          }
+        </h1>      
     </div>
   )
 }
